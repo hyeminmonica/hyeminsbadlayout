@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>the layout</title>
+        <style>
+            body {
+            background-color:linen;
+            background-repeat: repeat;
+            font-family:Arial, Helvetica, sans-serif;
+            }
+
+            body a {
+                text-decoration: none;
+            }
+
+            a{
+                font-size: 2em;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: dodgerblue;
+            }
+
+            a:visited {
+                color:dodgerblue;
+            }
+
+            #page-info {
+                line-height: 1.6;
+                text-decoration: none;
+            }
+
+            #link-item {
+                margin-right: 15px;
+            }
+
+            header {
+                position: -webkit-sticky;
+                position:sticky;
+                top: 0;
+            }
+
+            #page-medias{
+                display: flex;
+                align-items: center;
+                margin-top: 150px;
+                margin-bottom: 150px;
+            }
+
+            #image-container img{
+                width: 500px;
+                height: 300px;
+                margin-right: 30px;
+                margin-bottom: 5px;
+            }
+
+            #menu-bars {
+                margin-right: 150px;
+            }
+
+            #navigation a{
+                padding: 14px 16px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="page-content">
+                <header id="page-infos">
+                    <span class="sentence">
+                        <a class="link-item" href="https://www.google.com/search?q=hello&rlz=1C5CHFA_enKR916KR916&oq=hello&aqs=chrome.0.0i67i355i650j46i67i650l2j0i67i650j46i67i199i465i650j46i67i340i650j0i67i650l3.1258j0j7&sourceid=chrome&ie=UTF-8" target="_self">HELLO</a>
+                        <a class="link-item" href="https://www.google.com/search?q=this&sca_esv=566330112&rlz=1C5CHFA_enKR916KR916&ei=JvYIZdyVM4nh-AbAsIqAAg&ved=0ahUKEwjcwOjvv7WBAxWJMN4KHUCYAiAQ4dUDCBA&uact=5&oq=this&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHRoaXMyBxAAGIoFGEMyBxAuGIoFGEMyCxAuGK8BGMcBGIAEMgUQABiABDIFEC4YgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAuGIAEMgUQLhiABEiaA1AAWOIBcAB4AZABAJgBvAGgAfUDqgEDMS4zuAEDyAEA-AEBwgINEC4YigUYxwEY0QMYQ8ICFhAuGIoFGEMYlwUY3AQY3gQY4ATYAQHCAgsQLhiABBjHARivAeIDBBgAIEGIBgG6BgYIARABGBQ&sclient=gws-wiz-serp" target="_self">THIS</a>
+                        <a class="link-item" href="https://en.wikipedia.org/wiki/Website" target="_self">WEBSITE</a>
+                        <a class="link-item" href="https://www.google.com/search?q=represents&rlz=1C5CHFA_enKR916KR916&oq=represents&aqs=chrome..69i57j0i512l9.2023j0j4&sourceid=chrome&ie=UTF-8" target="_self">REPRESENTS</a>
+                        <a class="link-item" href="https://www.typographicposters.com/wolfgang-weingart" target="_self">A LAYOUT THAT</a>
+                        <a class="link-item" href="https://tenor.com/search/trying-gifs" target="_self">I AM TRYING OUT.</a>
+                        <a class="link-item" href="https://www.google.com/search?q=please+bear+in+mind&rlz=1C5CHFA_enKR916KR916&oq=please+bear+in+mind&aqs=chrome..69i57j0i512l8j0i390i650.3415j0j7&sourceid=chrome&ie=UTF-8" target="_self">PLEASE BEAR IN MIND THAT</a>
+                        <a class="link-item" href="https://www.google.com/search?q=very&sca_esv=566330112&rlz=1C5CHFA_enKR916KR916&ei=nPYIZcG6JY3o-Aa0hL_IDw&ved=0ahUKEwjB-PynwLWBAxUNNN4KHTTCD_kQ4dUDCBA&uact=5&oq=very&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHZlcnkyCBAAGIoFGJECMggQABiKBRiRAjIHEAAYigUYQzIHEAAYigUYQzIHEAAYigUYQzIFEC4YgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAuGIAESI0WUABY6hRwBHgBkAEAmAGnAaAB5weqAQMwLji4AQPIAQD4AQGoAgnCAgsQLhiABBjHARjRA8ICChAuGIoFGNQCGEPCAgsQLhiABBjHARivAcICEBAAGIoFGOoCGLQCGEPYAQHCAh0QABiKBRjlAhjlAhjqAhi0AhiKAxi3AxjUA9gBAcICDRAuGIoFGMcBGNEDGEPiAwQYACBBiAYBugYECAEYBw&sclient=gws-wiz-serp" target="_self">IT IS VERY</a>
+                        <a class="link-item" href="https://www.google.com/search?q=%EC%95%84%EB%A7%88%EC%B6%94%EC%96%B4&source=lmns&bih=758&biw=1207&rlz=1C5CHFA_enKR916KR916&hl=en-US&sa=X&ved=2ahUKEwiMot-9wLWBAxWk1TQHHf7SCA4Q0pQJKAB6BAgBEAI" target="_self">AMATEURISH</a>
+                    </span>
+                </header>
+
+                <div id="page-medias">
+                    <div id="image-container">
+                        <img src="img.1.JPG">
+                        <br> This is an image.
+                    </div>
+                    <div id="image-container">
+                        <img src="img.2.JPG">
+                        <br> This is also an image.
+                    </div>
+                    <div id="image-container">
+                        <img src="img.3.JPG" >
+                        <br> This is another image.
+                    </div>
+                    <div id="image-container">
+                        <img src="img.4.JPG">
+                        <br> This is yet another image.
+                    </div>
+                    <div id="image-container">
+                        <img src="img.5.JPG">
+                        <br> This is the last image.
+                    </div>
+                </div>
+
+                <footer id="menu-bars">
+                    <nav id="navigation">
+                        <a class="menu-item" href="" target="_self">No.1</a>
+                        <a class="menu-item" href="" target="_self">No.2</a>
+                        <a class="menu-item" href="" target="_self">No.3</a>
+                        <a class="menu-item" href="" target="_self">No.4</a>
+                        <a class="menu-item" href="" target="_self">No.5</a>
+                        <a class="menu-item" href="" target="_self">No.6</a>
+                        <a class="menu-item" href="" target="_self">No.7</a>
+                        <a class="menu-item" href="" target="_self">No.8</a>
+                    </nav>
+                </footer>
+            </div>
+        </div>
+
+    </body>
+</html>
